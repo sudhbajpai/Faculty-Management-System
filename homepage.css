@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Alfa+Slab+One&display=swap');
+
+.navbar-nav{
+    
+    margin-left: 30vh;
+}
+
+.brandicon{
+    border-radius: 50px;
+    border-width: 0;
+    height: 67px;
+    width: 65px;
+}
+
+nav{
+   
+    font-size: 20px;
+    height: 65px;
+}
+.bg{
+    background: url("img/2.jpeg");
+    height: 800px;
+    background-size: cover;
+    background-repeat:no-repeat ;
+}
+
+.overlay{
+    background-color: rgba(0,0,0,0.4);
+    background-size: cover;
+    height: 100%;
+}
+
+.overlay1{
+    background-color: rgba(0,0,0,0.5);
+    padding: 20px;
+}
+.text{
+    color:white;
+    font-family: 'Acme', sans-serif;
+    font-size: 40px;
+}
+
+.heading{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 50px;
+    padding-top: 35px;
+    color: black;
+}
+
+.active{
+    font-weight: 500;
+}
+
+.nav-link:active{
+    padding-top:5%;
+}
+
+
+
+
+.nolink{
+    text-decoration: none;
+    color: brown;
+    font-family: acme;
+}
+
+.contactdiv{
+    background: url(img/6.jpg);
+    background-size: cover;
+    padding: 5%;
+
+}
+
+.card {
+    padding:5%;
+    background: rgba(0,0,0,0.7);
+}
+
+textarea[name="message"] {
+    resize: none
+}
+
+
+
+#e-mail {
+    height: 45px
+}
+
+#message {
+    height: 90px
+}
+
+input.input-box,
+textarea.input-box {
+    background-color: #616161;
+    border: #616161;
+    color: #BDBDBD
+}
+
+input.input-box:focus,
+textarea.input-box:focus {
+    background-color: #000000;
+    color: #BDBDBD
+}
+
+.rm-border:focus {
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none
+}
+
+form .form-control::-webkit-input-placeholder {
+    color: #9E9E9E
+}
+
+::-moz-placeholder {
+    color: #9E9E9E !important
+}
+
+input.btn-purple {
+    background-color: #5C6BC0;
+    color: #ffffff
+}
+
+.team{
+    border-radius: 50%;
+}
+
+.teambg{
+    background-color: rgb(235, 214, 187);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+@media (max-width:400px) {
+ nav{
+     opacity: 1.0;
+     font-size: 15px;
+     height: 70px;
+ }
+
+ .card{
+     display: inline-flex;
+     flex-direction: column;
+ }
+
+ .row{
+    display: flex;
+    flex-direction: column;
+ }
+ .brandicon{
+    border-radius: 50px;
+    border-width: 0;
+    height: 50px;
+    width: 50px;
+}
+
+.teambg{
+    display: flex;
+    flex-direction: column;
+}
+
+footer .container{
+    display: flex;
+    flex-direction: column;
+}
+}
